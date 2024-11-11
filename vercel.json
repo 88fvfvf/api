@@ -1,0 +1,22 @@
+{
+    "functions": {
+        "api/server/*": {
+            "maxDuration": 10,
+            "cors": {
+                "allowedOrigins": [
+                    "*"
+                ],
+                "allowedMethods": [
+                    "GET",
+                    "POST",
+                    "PUT",
+                    "DELETE"
+                ],
+                "allowedHeaders": [
+                    "Content-Type",
+                    "Authorization"
+                ]
+            }
+        }
+    }
+}
