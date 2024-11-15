@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "categories": "Пиццы"
+    },
+    {
+        "id": 2,
+        "categories": "Завтраки"
+    },
+    {
+        "id": 3,
+        "categories": "Закуски"
+    },
+    {
+        "id": 4,
+        "categories": "Коктейли"
+    },
+    {
+        "id": 5,
+        "categories": "Напитки"
+    },
+    {
+        "id": 6,
+        "categories": "Десерты"
+    }
+]
