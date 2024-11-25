@@ -161,7 +161,7 @@
             "description": "Шампиньоны, томаты, сладкий перец, красный лук, кубики брынзы, моцарелла, фирменный томатный соус, итальянские травы"
         },
         {
-            "id": 1,
+            "id": 7,
             "title": "Додстер с ветчиной",
             "images": [
                 "https://media.dodostatic.net/image/r:584x584/11EE7970259D888E98B6407EE6B994D9.png"
@@ -178,7 +178,7 @@
             "category": "Завтраки"
         },
         {
-            "id": 2,
+            "id": 8,
             "title": "Сырники со сгущенным молоком",
             "images": [
                 "https://media.dodostatic.net/image/r:366x366/11EF90613992FBC69C3DD4772681C783.png",
@@ -198,7 +198,7 @@
             "category": "Завтраки"
         },
         {
-            "id": 3,
+            "id": 9,
             "title": "Сырники с малиновым вареньем",
             "images": [
                 "https://media.dodostatic.net/image/r:584x584/11EF9060DD723610942E8F368B03540A.png",
@@ -218,7 +218,7 @@
             "category": "Завтраки"
         },
         {
-            "id": 4,
+            "id": 10,
             "title": "Сырники",
             "images": [
                 "https://media.dodostatic.net/image/r:366x366/11EF90613992FBC69C3DD4772681C783.png",
@@ -238,7 +238,7 @@
             "category": "Завтраки"
         },
         {
-            "id": 5,
+            "id": 11,
             "title": "Дэнвич ветчина и сыр",
             "images": [
                 "https://media.dodostatic.net/image/r:584x584/11EE796FF0059B799A17F57A9E64C725.png"
@@ -255,7 +255,7 @@
             "category": "Закуски"
         },
         {
-            "id": 6,
+            "id": 12,
             "title": "Паста Карбонара",
             "images": [
                 "https://media.dodostatic.net/image/r:584x584/11EF8786BD33F0E2B6F716F97E0D6687.png"
@@ -272,7 +272,7 @@
             "category": "Закуски"
         },
         {
-            "id": 7,
+            "id": 13,
             "title": "Острый Додстер 🌶🌶",
             "images": [
                 "https://media.dodostatic.net/image/r:584x584/11EE796FD3B594068F7A752DF8161D04.png"
@@ -289,7 +289,7 @@
             "category": "Закуски"
         },
         {
-            "id": 8,
+            "id": 14,
             "title": "Супермясной Додстер",
             "images": [
                 "https://media.dodostatic.net/image/r:584x584/11EE797022F9AD72AC34E1B01DC6AEBA.png"
@@ -306,7 +306,7 @@
             "category": "Закуски"
         },
         {
-            "id": 9,
+            "id": 15,
             "title": "Молочный коктейль с печеньем Орео",
             "images": [
                 "https://media.dodostatic.net/image/r:584x584/11EE796FA1F50F8F8111A399E4C1A1E3.png"
@@ -323,7 +323,7 @@
             "category": "Коктейли"
         },
         {
-            "id": 10,
+            "id": 16,
             "title": "Классический молочный коктейль",
             "images": [
                 "https://media.dodostatic.net/image/r:584x584/11EE796F93FB126693F96CB1D3E403FB.png"
@@ -340,7 +340,7 @@
             "category": "Коктейли"
         },
         {
-            "id": 11,
+            "id": 17,
             "title": "Клубничный молочный коктейль",
             "images": [
                 "https://media.dodostatic.net/image/r:584x584/11EE796FB231A5BF82B0A99A1B12339C.png"
@@ -357,7 +357,7 @@
             "category": "Коктейли"
         },
         {
-            "id": 12,
+            "id": 18,
             "title": "Шоколадный молочный коктейль",
             "images": [
                 "https://media.dodostatic.net/image/r:584x584/11EE796FA24D1E919FA050D8BA21F8E9.png"
@@ -374,7 +374,7 @@
             "category": "Коктейли"
         },
         {
-            "id": 13,
+            "id": 19,
             "title": "Добрый Апельсин",
             "images": [
                 "https://media.dodostatic.net/image/r:584x584/11EE7D61AAE50A4CB880D842915C82DC.png"
@@ -385,7 +385,7 @@
             "category": "Напитки"
         },
         {
-            "id": 14,
+            "id": 20,
             "title": "Добрый Лимон-Лайм",
             "images": [
                 "https://media.dodostatic.net/image/r:584x584/11EE7D61BAB86255A811FEEA677AD674.png"
@@ -396,7 +396,7 @@
             "category": "Напитки"
         },
         {
-            "id": 15,
+            "id": 21,
             "title": "Яблочный сок Rich",
             "images": [
                 "https://media.dodostatic.net/image/r:584x584/11EE7D61B27F1652B9A918BDDD753D8D.png"
@@ -407,7 +407,7 @@
             "category": "Напитки"
         },
         {
-            "id": 16,
+            "id": 22,
             "title": "Вода BonaAqua негазированная",
             "images": [
                 "https://media.dodostatic.net/image/r:584x584/11EEE20B3F64A6B8A0418FF967C69F72.png"
@@ -418,7 +418,7 @@
             "category": "Напитки"
         },
         {
-            "id": 17,
+            "id": 23,
             "title": "Чизкейк Нью-Йорк с кокосом",
             "images": [
                 "https://media.dodostatic.net/image/r:584x584/11EF8C979237269EAB65CCC8FDBD9755.png"
@@ -435,7 +435,7 @@
             "category": "Десерты"
         },
         {
-            "id": 18,
+            "id": 24,
             "title": "Чизкейк Банановый с шоколадным печеньем",
             "images": [
                 "https://media.dodostatic.net/image/r:584x584/11EE797014D8F94683D580455892ABA1.png"
@@ -452,7 +452,7 @@
             "category": "Десерты"
         },
         {
-            "id": 19,
+            "id": 25,
             "title": "Маффин Три шоколада",
             "images": [
                 "https://media.dodostatic.net/image/r:584x584/11EE796FB18AFBBEBF188C25EBD2E581.png"
@@ -469,7 +469,7 @@
             "category": "Десерты"
         },
         {
-            "id": 20,
+            "id": 26,
             "title": "Эклеры-мини с заварным кремом",
             "images": [
                 "https://media.dodostatic.net/image/r:584x584/11EE796FB18AFBBEBF188C25EBD2E581.png"
