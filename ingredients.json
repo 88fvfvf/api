@@ -1,0 +1,54 @@
+[
+    {
+        "id": 1,
+        "ingredients": "Пикантная пепперони"
+    },
+    {
+        "id": 2,
+        "ingredients": "Томатный соус"
+    },
+    {
+        "id": 3,
+        "ingredients": "Томаты"
+    },
+    {
+        "id": 4,
+        "ingredients": "Цыпленок"
+    },
+    {
+        "id": 5,
+        "ingredients": "Свежие томаты"
+    },
+    {
+        "id": 6,
+        "ingredients": "Креветки"
+    },
+    {
+        "id": 5,
+        "ingredients": "Соус альфредо"
+    },
+    {
+        "id": 6,
+        "ingredients": "Сладкий перец"
+    },
+    {
+        "id": 7,
+        "ingredients": "Шампиньоны"
+    },
+    {
+        "id": 8,
+        "ingredients": "Красный лук"
+    },
+    {
+        "id": 9,
+        "ingredients": "Сырный соус"
+    },
+    {
+        "id": 10,
+        "ingredients": "Солённые огурчики"
+    },
+    {
+        "id": 11,
+        "ingredients": "Острый перец"
+    }
+]
