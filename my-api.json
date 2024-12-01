@@ -23,7 +23,33 @@
         "price": 245,
         "category": "Пиццы",
         "rating": 6,
-        "description": "Пикантная пепперони, увеличенная порция моцареллы, томаты, фирменный томатный соус"
+        "description": "Пикантная пепперони, увеличенная порция моцареллы, томаты, фирменный томатный соус",
+        "toTasty": [
+            {
+                "id": 1,
+                "title": "Сырный бортик",
+                "image": "https://cdn.dodostatic.net/static/Img/Ingredients/99f5cb91225b4875bd06a26d2e842106.png",
+                "price": 179
+            },
+            {
+                "id": 2,
+                "title": "Моцарелла",
+                "image": "https://cdn.dodostatic.net/static/Img/Ingredients/cdea869ef287426386ed634e6099a5ba.png",
+                "price": 79
+            },
+            {
+                "id": 3,
+                "title": "Сыры чеддер и пармезан",
+                "image": "https://cdn.dodostatic.net/static/Img/Ingredients/000D3A22FA54A81411E9AFA69C1FE796",
+                "price": 79
+            },
+            {
+                "id": 4,
+                "title": "Нежный цыпленок",
+                "image": "https://cdn.dodostatic.net/static/Img/Ingredients/000D3A39D824A82E11E9AFA5B328D35A",
+                "price": 89
+            }
+        ]
     },
     {
         "id": 2,
@@ -50,7 +76,33 @@
         "price": 415,
         "category": "Пиццы",
         "rating": 8,
-        "description": "Острые колбаски чоризо, сладкий перец, моцарелла, фирменный томатный соус"
+        "description": "Острые колбаски чоризо, сладкий перец, моцарелла, фирменный томатный соус",
+        "toTasty": [
+            {
+                "id": 1,
+                "title": "Сырный бортик",
+                "image": "https://cdn.dodostatic.net/static/Img/Ingredients/99f5cb91225b4875bd06a26d2e842106.png",
+                "price": 179
+            },
+            {
+                "id": 2,
+                "title": "Моцарелла",
+                "image": "https://cdn.dodostatic.net/static/Img/Ingredients/cdea869ef287426386ed634e6099a5ba.png",
+                "price": 79
+            },
+            {
+                "id": 3,
+                "title": "Сыры чеддер и пармезан",
+                "image": "https://cdn.dodostatic.net/static/Img/Ingredients/000D3A22FA54A81411E9AFA69C1FE796",
+                "price": 79
+            },
+            {
+                "id": 4,
+                "title": "Нежный цыпленок",
+                "image": "https://cdn.dodostatic.net/static/Img/Ingredients/000D3A39D824A82E11E9AFA5B328D35A",
+                "price": 89
+            }
+        ]
     },
     {
         "id": 3,
@@ -75,7 +127,33 @@
         "price": 580,
         "category": "Пиццы",
         "rating": 2,
-        "description": "Цыпленок, шампиньоны, сырный соус,ароматный грибной соус, лук, сухой чеснок, моцарелла, смесь сыров чеддер и пармезан, фирменный соус альфредо"
+        "description": "Цыпленок, шампиньоны, сырный соус,ароматный грибной соус, лук, сухой чеснок, моцарелла, смесь сыров чеддер и пармезан, фирменный соус альфредо",
+        "toTasty": [
+            {
+                "id": 1,
+                "title": "Сырный бортик",
+                "image": "https://cdn.dodostatic.net/static/Img/Ingredients/99f5cb91225b4875bd06a26d2e842106.png",
+                "price": 179
+            },
+            {
+                "id": 2,
+                "title": "Моцарелла",
+                "image": "https://cdn.dodostatic.net/static/Img/Ingredients/cdea869ef287426386ed634e6099a5ba.png",
+                "price": 79
+            },
+            {
+                "id": 3,
+                "title": "Пикантная пепперони",
+                "image": "https://cdn.dodostatic.net/static/Img/Ingredients/000D3A22FA54A81411E9AFA6258199C3",
+                "price": 79
+            },
+            {
+                "id": 4,
+                "title": "Свежие томаты",
+                "image": "https://cdn.dodostatic.net/static/Img/Ingredients/000D3A39D824A82E11E9AFA7AC1A1D67",
+                "price": 89
+            }
+        ]
     },
     {
         "id": 4,
@@ -100,7 +178,33 @@
         "price": 450,
         "category": "Пиццы",
         "rating": 10,
-        "description": "Ветчина, солённые огурчики, томаты, красный лук, чеснок, соус бургер, моцарелла, фирменный томатный соус"
+        "description": "Ветчина, солённые огурчики, томаты, красный лук, чеснок, соус бургер, моцарелла, фирменный томатный соус",
+        "toTasty": [
+            {
+                "id": 1,
+                "title": "Сырный бортик",
+                "image": "https://cdn.dodostatic.net/static/Img/Ingredients/99f5cb91225b4875bd06a26d2e842106.png",
+                "price": 179
+            },
+            {
+                "id": 2,
+                "title": "Моцарелла",
+                "image": "https://cdn.dodostatic.net/static/Img/Ingredients/cdea869ef287426386ed634e6099a5ba.png",
+                "price": 79
+            },
+            {
+                "id": 3,
+                "title": "Пряная говядина",
+                "image": "https://cdn.dodostatic.net/static/Img/Ingredients/11ef5ed5f8f64595a6d6a99c1fe6f7f0.png",
+                "price": 79
+            },
+            {
+                "id": 4,
+                "title": "Свежие томаты",
+                "image": "https://cdn.dodostatic.net/static/Img/Ingredients/000D3A39D824A82E11E9AFA7AC1A1D67",
+                "price": 89
+            }
+        ]
     },
     {
         "id": 5,
@@ -126,7 +230,33 @@
         "price": 395,
         "category": "Пиццы",
         "rating": 10,
-        "description": "Острая чоризо, острый перец халапеньо, соус барбекю, митболы, томаты, сладкий перец, красный лук, моцарелла"
+        "description": "Острая чоризо, острый перец халапеньо, соус барбекю, митболы, томаты, сладкий перец, красный лук, моцарелла",
+        "toTasty": [
+            {
+                "id": 1,
+                "title": "Сырный бортик",
+                "image": "https://cdn.dodostatic.net/static/Img/Ingredients/99f5cb91225b4875bd06a26d2e842106.png",
+                "price": 179
+            },
+            {
+                "id": 2,
+                "title": "Моцарелла",
+                "image": "https://cdn.dodostatic.net/static/Img/Ingredients/cdea869ef287426386ed634e6099a5ba.png",
+                "price": 79
+            },
+            {
+                "id": 3,
+                "title": "Пряная говядина",
+                "image": "https://cdn.dodostatic.net/static/Img/Ingredients/11ef5ed5f8f64595a6d6a99c1fe6f7f0.png",
+                "price": 79
+            },
+            {
+                "id": 4,
+                "title": "Свежие томаты",
+                "image": "https://cdn.dodostatic.net/static/Img/Ingredients/000D3A39D824A82E11E9AFA7AC1A1D67",
+                "price": 89
+            }
+        ]
     },
     {
         "id": 6,
@@ -152,7 +282,33 @@
         "price": 285,
         "category": "Пиццы",
         "rating": 7,
-        "description": "Шампиньоны, томаты, сладкий перец, красный лук, кубики брынзы, моцарелла, фирменный томатный соус, итальянские травы"
+        "description": "Шампиньоны, томаты, сладкий перец, красный лук, кубики брынзы, моцарелла, фирменный томатный соус, итальянские травы",
+        "toTasty": [
+            {
+                "id": 1,
+                "title": "Сырный бортик",
+                "image": "https://cdn.dodostatic.net/static/Img/Ingredients/99f5cb91225b4875bd06a26d2e842106.png",
+                "price": 179
+            },
+            {
+                "id": 2,
+                "title": "Моцарелла",
+                "image": "https://cdn.dodostatic.net/static/Img/Ingredients/cdea869ef287426386ed634e6099a5ba.png",
+                "price": 79
+            },
+            {
+                "id": 3,
+                "title": "Пряная говядина",
+                "image": "https://cdn.dodostatic.net/static/Img/Ingredients/11ef5ed5f8f64595a6d6a99c1fe6f7f0.png",
+                "price": 79
+            },
+            {
+                "id": 4,
+                "title": "Свежие томаты",
+                "image": "https://cdn.dodostatic.net/static/Img/Ingredients/000D3A39D824A82E11E9AFA7AC1A1D67",
+                "price": 89
+            }
+        ]
     },
     {
         "id": 7,
