@@ -14,7 +14,7 @@ export default function handler(req, res) {
 
   // Определяем путь к JSON-файлу
   const filePath = path.resolve('my-api.json');
-  
+
   // Читаем файл
   fs.readFile(filePath, 'utf8', (err, data) => {
     if (err) {
@@ -23,7 +23,16 @@ export default function handler(req, res) {
 
     const allData = JSON.parse(data);
 
-    // Возвращаем все категории данных
+    // Если в запросе есть параметр title, фильтруем данные
+    const { title } = req.query; // Получаем параметр из строки запроса
+    if (title) {
+      const filteredData = allData.filter((item) =>
+        item.title.toLowerCase().includes(title.toLowerCase())
+      );
+      return res.status(200).json(filteredData);
+    }
+
+    // Если параметра title нет, возвращаем все данные
     res.status(200).json(allData);
   });
 }
