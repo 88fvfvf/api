@@ -521,58 +521,6 @@
         "category": "Коктейли"
     },
     {
-        "id": 19,
-        "title": "Добрый Апельсин",
-        "images": [
-            "https://media.dodostatic.net/image/r:584x584/11EE7D61AAE50A4CB880D842915C82DC.png"
-        ],
-        "weight": [
-            "0.5мл"
-        ],
-        "price": 135,
-        "rating": 5,
-        "category": "Напитки"
-    },
-    {
-        "id": 20,
-        "title": "Добрый Лимон-Лайм",
-        "images": [
-            "https://media.dodostatic.net/image/r:584x584/11EE7D61BAB86255A811FEEA677AD674.png"
-        ],
-        "weight": [
-            "0.5мл"
-        ],
-        "price": 135,
-        "rating": 4,
-        "category": "Напитки"
-    },
-    {
-        "id": 21,
-        "title": "Яблочный сок Rich",
-        "images": [
-            "https://media.dodostatic.net/image/r:584x584/11EE7D61B27F1652B9A918BDDD753D8D.png"
-        ],
-        "weight": [
-            "1л"
-        ],
-        "price": 249,
-        "rating": 3,
-        "category": "Напитки"
-    },
-    {
-        "id": 22,
-        "title": "Вода BonaAqua негазированная",
-        "images": [
-            "https://media.dodostatic.net/image/r:584x584/11EEE20B3F64A6B8A0418FF967C69F72.png"
-        ],
-        "weight": [
-            "1л"
-        ],
-        "price": 85,
-        "rating": 5,
-        "category": "Напитки"
-    },
-    {
         "id": 23,
         "title": "Чизкейк Нью-Йорк с кокосом",
         "images": [
@@ -639,5 +587,57 @@
         "price": 109,
         "rating": 3,
         "category": "Десерты"
+    },
+    {
+        "id": 19,
+        "title": "Добрый Апельсин",
+        "images": [
+            "https://media.dodostatic.net/image/r:584x584/11EE7D61AAE50A4CB880D842915C82DC.png"
+        ],
+        "weight": [
+            "0.5мл"
+        ],
+        "price": 135,
+        "rating": 5,
+        "category": "Напитки"
+    },
+    {
+        "id": 20,
+        "title": "Добрый Лимон-Лайм",
+        "images": [
+            "https://media.dodostatic.net/image/r:584x584/11EE7D61BAB86255A811FEEA677AD674.png"
+        ],
+        "weight": [
+            "0.5мл"
+        ],
+        "price": 135,
+        "rating": 4,
+        "category": "Напитки"
+    },
+    {
+        "id": 21,
+        "title": "Яблочный сок Rich",
+        "images": [
+            "https://media.dodostatic.net/image/r:584x584/11EE7D61B27F1652B9A918BDDD753D8D.png"
+        ],
+        "weight": [
+            "1л"
+        ],
+        "price": 249,
+        "rating": 3,
+        "category": "Напитки"
+    },
+    {
+        "id": 22,
+        "title": "Вода BonaAqua негазированная",
+        "images": [
+            "https://media.dodostatic.net/image/r:584x584/11EEE20B3F64A6B8A0418FF967C69F72.png"
+        ],
+        "weight": [
+            "1л"
+        ],
+        "price": 85,
+        "rating": 5,
+        "category": "Напитки"
     }
 ]
