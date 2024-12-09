@@ -27,15 +27,15 @@ export default function handler(req, res) {
     const { title } = req.query;
 
     // Проверка пустого или короткого title
-    if (!title || title.trim().length < 2) {
-      return res.status(200).json([]); // Если title пустое или меньше 2 символов, возвращаем пустой массив
+    if (title && title.trim().length >= 2) {
+      // Фильтрация только продуктов, если title передан и длина его больше 1
+      const filteredData = allData.products.filter((item) =>
+        item.title.toLowerCase().includes(title.toLowerCase())
+      );
+      return res.status(200).json(filteredData);
     }
 
-    // Если в запросе есть параметр title, фильтруем данные
-    const filteredData = allData.filter((item) =>
-      item.title.toLowerCase().includes(title.toLowerCase())
-    );
-
-    return res.status(200).json(filteredData);
+    // Если title нет или он меньше 2 символов, возвращаем все данные
+    res.status(200).json(allData);
   });
 }
