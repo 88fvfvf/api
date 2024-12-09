@@ -27,8 +27,8 @@ export default function handler(req, res) {
     const { title } = req.query;
 
     // Проверка только для запроса с параметром title
-    if (req.query.title) {
-      // Если title меньше 2 символов или пустой, возвращаем пустой массив
+    if (title) {
+      // Если title пустой или меньше 2 символов, возвращаем пустой массив
       if (title.trim().length < 2) {
         return res.status(200).json([]);
       }
@@ -40,7 +40,7 @@ export default function handler(req, res) {
       return res.status(200).json(filteredData);
     }
 
-    // Если параметра title нет в запросе, возвращаем все данные
-    res.status(200).json(allData);
+    // Если параметра title нет в запросе или он пустой, возвращаем пустой массив
+    res.status(200).json([]);
   });
 }
