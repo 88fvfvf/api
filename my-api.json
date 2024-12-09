@@ -420,7 +420,33 @@
         ],
         "rating": 4,
         "category": "Завтраки",
-        "count": 0
+        "count": 0,
+        "toTasty": [
+            {
+                "id": 1,
+                "title": "Сироп со вкусом яблочного пирога",
+                "image": "https://cdn.dodostatic.net/static/Img/Ingredients/11ef7f5ae0d48a00ad333558083b72e4.png",
+                "addPrice": 20
+            },
+            {
+                "id": 2,
+                "title": "Сироп со вкусом карамели",
+                "image": "https://cdn.dodostatic.net/static/Img/Ingredients/11ef7f5b996b2ea7853c667a22522610.png",
+                "addPrice": 20
+            },
+            {
+                "id": 3,
+                "title": "Сироп со вкусом фундука",
+                "image": "https://cdn.dodostatic.net/static/Img/Ingredients/11ef7f5aa7bbe21e9471bdc23fafa808.png",
+                "addPrice": 20
+            },
+            {
+                "id": 4,
+                "title": "Кокосовый сироп",
+                "image": "https://cdn.dodostatic.net/static/Img/Ingredients/11ef7f5b3e109ab590ed389ca9a7cc9f.png",
+                "addPrice": 20
+            }
+        ]
     },
     {
         "id": 11,
