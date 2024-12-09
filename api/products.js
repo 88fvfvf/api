@@ -26,21 +26,21 @@ export default function handler(req, res) {
     // Получаем параметр title из строки запроса
     const { title } = req.query;
 
-    // Если параметр title присутствует и его длина >= 2 символов
-    if (title && title.trim().length >= 2) {
-      // Фильтрация данных по title
+    // Проверка только для запроса с параметром title
+    if (req.query.title) {
+      // Если title меньше 2 символов или пустой, возвращаем пустой массив
+      if (title.trim().length < 2) {
+        return res.status(200).json([]);
+      }
+
+      // Фильтрация по title, если передан параметр title с нужной длиной
       const filteredData = allData.filter((item) =>
         item.title.toLowerCase().includes(title.toLowerCase())
       );
       return res.status(200).json(filteredData);
     }
 
-    // Если параметр title пустой или его длина < 2, возвращаем пустой массив
-    if (title) {
-      return res.status(200).json([]);
-    }
-
-    // Если параметра title нет, возвращаем все данные
+    // Если параметра title нет в запросе, возвращаем все данные
     res.status(200).json(allData);
   });
 }
