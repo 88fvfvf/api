@@ -23,8 +23,15 @@ export default function handler(req, res) {
 
     const allData = JSON.parse(data);
 
+    // Получаем параметр title из строки запроса
+    const { title } = req.query;
+
+    // Проверка длины title
+    if (title && title.length < 2) {
+      return res.status(200).json([]); // Если title меньше 2 символов, возвращаем пустой массив
+    }
+
     // Если в запросе есть параметр title, фильтруем данные
-    const { title } = req.query; // Получаем параметр из строки запроса
     if (title) {
       const filteredData = allData.filter((item) =>
         item.title.toLowerCase().includes(title.toLowerCase())
