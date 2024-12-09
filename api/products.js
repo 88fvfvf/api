@@ -23,24 +23,7 @@ export default function handler(req, res) {
 
     const allData = JSON.parse(data);
 
-    // Получаем параметр title из строки запроса
-    const { title } = req.query;
-
-    // Фильтрация только если запрос содержит параметр title
-    if (title !== undefined) {
-      // Если title пустой или меньше 2 символов, возвращаем пустой массив
-      if (title.trim().length < 2) {
-        return res.status(200).json([]);
-      }
-
-      // Фильтрация данных по title, если параметр title передан и его длина больше 1
-      const filteredData = allData.filter((item) =>
-        item.title.toLowerCase().includes(title.toLowerCase())
-      );
-      return res.status(200).json(filteredData);
-    }
-
-    // Если параметра title нет в запросе, возвращаем все данные
+    // Возвращаем все данные, без фильтрации
     res.status(200).json(allData);
   });
 }
